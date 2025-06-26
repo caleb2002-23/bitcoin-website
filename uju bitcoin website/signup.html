@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-form">
+        <h2>create account</h2>
+        <form action="submit.php" method="POST">
+            <label for="surname">Surname</label><br>
+            <input type="text" id="surname" name="surname" required><br>
+            <br>
+            <label for="name"> Name </label><br>
+            <input type="text" id="name" name="Name"required><br>
+            <br>
+            <label for="email">Email address</label><br>
+            <input type="email" id="emsil" name="email"required><br>
+            <br>
+            <label for="password">password</label><br>
+            <input type="password" id="passowrd" name="passowrd" required>
+            <button type="submit">sign up</button>
+            <p>Already have an account?</p> <a href="signin.html">sign in</a>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
